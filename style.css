@@ -5,3 +5,7 @@ a {
 ul li {
     list-style: none;
 }
+.cmds{
+    width: 700px;
+    height: auto;
+}
