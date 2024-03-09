@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NepaliNagarikta</title>
+</head>
+<body>
+    <h1>Citizenship Application Form</h1>
+    <p>Please fill in all the necessary field properly.</p>
+    <form action="">
+        <fieldset>
+            <h3>Personal Information:</h3>
+            <label for="first-name"><input type="text" name="first-name" placeholder="First Name" required></label>
+            <label for="middle-name"><input type="text" name="middle-name" placeholder="Middle Name" required></label>
+            <label for="last-name"><input type="text" name="last-name" placeholder="Last Name" required></label><br>
+            <label for="birth-place">Place of Birth: <input type="text" name="birth-place" required></label><br>
+            <label for="date-of-birth">Date of Birth: <input type="date" name="date-of-birth" required></label><br>
+            <label>Select Gender: <input type="radio" name="gender" value="male" required>Male</label>
+            <label><input type="radio" name="gender" value="female" required>Female</label>
+            <label><input type="radio" name="gender" value="others" required>Others</label><br>
+            <label>Marital Status: </label>
+            <label><input type="radio" name="marital-status" value="married">Married</label>
+            <label><input type="radio" name="marital-status" value="married">Unmarried</label>
+            <label><input type="radio" name="marital-status" value="married">Divorced</label>
+            <label><input type="radio" name="marital-status" value="married">Widowed</label><br>
+            <h3>Permanent Address</h3>
+            Select Province: <select name="province" id="province">
+                <option value="PR1">Koshi</option>
+                <option value="PR2">Madhesh Pradesh</option>
+                <option value="PR3">Bagmati Pradesh</option>
+                <option value="PR4">Gandaki</option>
+                <option value="PR5">Lumbini</option>
+                <option value="PR6">Karnali</option>
+                <option value="PR7">Sudurpaschim</option>
+            </select><br>
+            <label for="municipality">Municipality: <input type="text" name="municipality" required></label><br>
+            <label for="ward-number">Ward-Number: <input type="text" name="ward-number" required></label><br>
+            <label for="tole">Tole: <input type="text" name="tole" required></label><br>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
